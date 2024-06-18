@@ -1,0 +1,68 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a;
+    color: #ecf0f1;
+}
+
+#app {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+#counter-card {
+    background: linear-gradient(145deg, #2c2c2c, #242424);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #ecf0f1;
+}
+
+#time {
+    font-size: 36px;
+    color: #e74c3c;
+    font-weight: 900;
+}
+
+#save-button, #download-button, #share-button {
+    padding: 12px 25px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+#save-button:hover, #download-button:hover, #share-button:hover {
+    background-color: #c0392b;
+}
+
+#canvas-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+canvas {
+    border: 2px solid #ecf0f1;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    max-width: 100%;
+    height: auto;
+}
